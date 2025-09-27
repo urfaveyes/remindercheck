@@ -8,7 +8,7 @@ from firebase_admin import credentials, firestore
 
 # ===== CONFIG =====
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-WEBHOOK_URL = os.getenv("https://remindercheck.onrender.com/telegram")
+WEBHOOK_URL = os.getenv("WEBHOOK_URL")
 PREMIUM_GROUP_LINK = "https://t.me/+5fmB-ojP74NhNWE1"
 ADMIN_GROUP_ID = os.getenv("ADMIN_GROUP_ID")  # private admin group ID
 
